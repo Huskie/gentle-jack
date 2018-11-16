@@ -1,0 +1,41 @@
+{
+  "name": "gentle-jack",
+  "version": "0.1.0",
+  "description": "GentleJack company website.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch & webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huskie/gentle-jack.git"
+  },
+  "keywords": [
+    "gentle",
+    "jack"
+  ],
+  "author": "Darren Huskie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Huskie/gentle-jack/issues"
+  },
+  "homepage": "https://github.com/Huskie/gentle-jack#readme",
+  "dependencies": {
+    "emotion": "^9.2.12",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-emotion": "^9.2.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.6",
+    "@babel/preset-env": "^7.1.6",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.25.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
+}
