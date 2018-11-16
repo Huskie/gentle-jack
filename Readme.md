@@ -1,7 +1,9 @@
 # gentle-jack
 
 * 🚀 React
-* 🚀 Emotion
+* 🎨 Emotion
+* ✔️ Jest
+* ✔️ Enzyme
 * 🚀 Webpack 4
 * 🚀 Webpack Dev Server
 
