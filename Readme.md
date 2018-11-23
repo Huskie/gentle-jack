@@ -9,4 +9,13 @@
 
 ---
 
-Company website.
+Company website for Gentle Jack.
+
+---
+
+## TODO
+
+* Client list
+* Linting
+* Formatting
+* Tests
