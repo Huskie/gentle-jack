@@ -12,11 +12,11 @@ const StyledAddress = Styled('div')`
 
 const BaseAddress = ({ children }) => <StyledAddress>{children}</StyledAddress>;
 
-BaseAddress.defaultProps = {};
-
 BaseAddress.propTypes = {
     children: PropTypes.node
 };
+
+BaseAddress.defaultProps = {};
 
 const Address = withTheme(BaseAddress);
 

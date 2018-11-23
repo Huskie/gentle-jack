@@ -6,12 +6,9 @@ import { withTheme } from 'emotion-theming';
 import { Address, Container, KeyValuePair } from '../';
 
 const StyledFooter = Styled('footer')`
-    background: ${props => props.theme.colours.secondary};
-    bottom: 0;
+    background: ${props => props.theme.colours.beta};
     color: #aaa;
     padding: 2rem 0;
-    position: fixed;
-    width: 100%;
 `;
 
 const BaseFooter = () => (
@@ -30,8 +27,8 @@ const BaseFooter = () => (
 
 const Footer = withTheme(BaseFooter);
 
-Footer.defaultProps = {};
-
 Footer.propTypes = {};
+
+Footer.defaultProps = {};
 
 export { Footer };

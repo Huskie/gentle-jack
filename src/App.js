@@ -6,8 +6,10 @@ import { ThemeProvider } from 'emotion-theming';
 
 const theme = {
     colours: {
-        primary: '#0038e3',
-        secondary: '#222',
+        alpha: '#003dff',
+        beta: '#222',
+        gamma: '#06f',
+        delta: '#fff'
     },
     spacing: {
         componentMargin: '16px',
@@ -27,12 +29,16 @@ injectGlobal`
 `
 
 const StyledWrapper = Styled('div')`
+    background: ${theme.colours.beta};
     font-family: proxima-nova, sans-serif;
     line-height: 1.4;
     min-height: 100vh;
     min-width: 320px;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
+    a {
+        color: #fa4e40;
+    }
 `;
 
 import { Home } from './containers';
@@ -42,6 +48,10 @@ const App = () => (
         <Home />
     </StyledWrapper>
 );
+
+App.propTypes = {};
+
+App.defaultProps = {};
 
 ReactDOM.render(
     <ThemeProvider theme={theme}>

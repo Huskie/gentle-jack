@@ -10,10 +10,10 @@ const StyledContainer = Styled('div')`
 
 const Container = ({ children }) => <StyledContainer>{children}</StyledContainer>;
 
-Container.defaultProps = {};
-
 Container.propTypes = {
     children: PropTypes.node
 };
+
+Container.defaultProps = {};
 
 export { Container };

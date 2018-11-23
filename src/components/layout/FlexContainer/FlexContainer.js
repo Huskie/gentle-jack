@@ -28,15 +28,15 @@ const FlexContainer = ({ children, horizontalAlignment, verticalAlignment }) => 
     <StyledWrapper horizontalAlignment={horizontalAlignment} verticalAlignment={verticalAlignment}>{children}</StyledWrapper>
 );
 
-FlexContainer.defaultProps = {
-    horizontalAlignment: 'left',
-    verticalAlignment: 'top'
-};
-
 FlexContainer.propTypes = {
     children: PropTypes.node.isRequired,
     horizontalAlignment: PropTypes.oneOf(['center', 'left', 'right', 'space-between']),
     verticalAlignment: PropTypes.oneOf(['bottom', 'center', 'top'])
 }
+
+FlexContainer.defaultProps = {
+    horizontalAlignment: 'left',
+    verticalAlignment: 'top'
+};
 
 export { FlexContainer };

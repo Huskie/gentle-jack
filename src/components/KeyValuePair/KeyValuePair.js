@@ -18,11 +18,11 @@ const KeyValuePair = ({ theKey, value }) => (
     </StyledWrapper>
 );
 
-KeyValuePair.defaultProps = {};
-
 KeyValuePair.propTypes = {
     theKey: PropTypes.string.isRequired,
     value: PropTypes.string.isRequired
 };
+
+KeyValuePair.defaultProps = {};
 
 export { KeyValuePair };
