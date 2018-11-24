@@ -303,7 +303,7 @@ eval("\n\nfunction checkDCE() {\n  /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */\n
 /*!******************************************************!*\
   !*** ./node_modules/react-emotion/dist/index.esm.js ***!
   \******************************************************/
-/*! exports provided: default, flush, hydrate, cx, merge, getRegisteredStyles, injectGlobal, keyframes, css, sheet, caches */
+/*! exports provided: flush, hydrate, cx, merge, getRegisteredStyles, injectGlobal, keyframes, css, sheet, caches, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
