@@ -7,6 +7,9 @@ const TransitionBlock = ({ children, type }) => (
     transitionName={type}
     transitionAppear
     transitionAppearTimeout={750}
+    transitionEnterTimeout={500}
+    transitionLeaveTimeout={500}
+
   >
     {children}
   </ReactCSSTransitionGroup>
