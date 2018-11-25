@@ -1,4 +1,5 @@
 export { Address } from './Address';
+export { Button } from './Button';
 export { ClientList } from './ClientList';
 export { Container } from './layout/Container';
 export { FlexContainer } from './layout/FlexContainer';

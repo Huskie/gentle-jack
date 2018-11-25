@@ -8,7 +8,11 @@ import { Address, Container, KeyValuePair } from '../';
 const StyledFooter = Styled('footer')`
     background: ${props => props.theme.colours.beta};
     color: #aaa;
+    font-size: 0.8125rem;
     padding: 2rem 0;
+    @media (min-width: 768px) {
+        font-size: 1rem;
+    }
 `;
 
 const BaseFooter = () => (
@@ -20,7 +24,7 @@ const BaseFooter = () => (
                 <span>Glasgow, G2 4JR</span>
             </Address>
             <KeyValuePair theKey="Company number" value="SC588866" />
-            <KeyValuePair theKey="VAT registration number" value="XXXXXXX" />
+            <KeyValuePair theKey="VAT registration number" value="288078750" />
         </Container>
     </StyledFooter>
 );
