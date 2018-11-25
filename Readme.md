@@ -1,5 +1,9 @@
 # gentle-jack
 
+Company website for Gentle Jack.
+
+---
+
 * 🚀 React
 * 🎨 Emotion
 * ✔️ Jest
@@ -21,12 +25,6 @@
 ### Continuous integration
 
 ```npm run ci``` continuous integration code quality checks including linting
-
----
-
-Company website for Gentle Jack.
-
----
 
 ## TODO
 
