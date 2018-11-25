@@ -5,6 +5,7 @@ export { Container } from './layout/Container';
 export { FlexContainer } from './layout/FlexContainer';
 export { Footer } from './Footer';
 export { Header } from './Header';
+export { Hero } from './Hero';
 export { KeyValuePair } from './KeyValuePair';
 export { Logo } from './Logo';
-export { Hero } from './Hero';
+export { TransitionBlock } from './Global/TransitionBlock';

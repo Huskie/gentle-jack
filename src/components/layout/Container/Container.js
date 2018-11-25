@@ -11,7 +11,7 @@ const StyledContainer = Styled('div')`
 const Container = ({ children }) => <StyledContainer>{children}</StyledContainer>;
 
 Container.propTypes = {
-    children: PropTypes.node
+  children: PropTypes.node.isRequired,
 };
 
 Container.defaultProps = {};

@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { withTheme } from 'emotion-theming';
 
-import { Container } from '../';
+import { Container } from '..';
 
 const StyledWrapper = styled('div')`
     background: #06f;
@@ -27,24 +27,26 @@ const StyledList = styled('div')`
 `;
 
 const BaseClientList = ({ clients, title }) => (
-    <StyledWrapper>
-        <Container>
-            {title && <h2>{title}</h2>}
-            <StyledList>
-                {clients.map(({ name }) => <span key={name}>{name}</span>)}
-            </StyledList>
-        </Container>
-    </StyledWrapper>
+  <StyledWrapper>
+    <Container>
+      {title && <h2>{title}</h2>}
+      <StyledList>
+        {clients.map(({ name }) => <span key={name}>{name}</span>)}
+      </StyledList>
+    </Container>
+  </StyledWrapper>
 );
 
 BaseClientList.propTypes = {
-    clients: PropTypes.arrayOf(PropTypes.shape({
-        name: PropTypes.string
-    })).isRequired,
-    title: PropTypes.string
+  clients: PropTypes.arrayOf(PropTypes.shape({
+    name: PropTypes.string,
+  })).isRequired,
+  title: PropTypes.string,
 };
 
-BaseClientList.defaultProps = {};
+BaseClientList.defaultProps = {
+  title: '',
+};
 
 const ClientList = withTheme(BaseClientList);
 

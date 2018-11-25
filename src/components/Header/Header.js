@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'react-emotion';
 import { withTheme } from 'emotion-theming';
 
-import { Container, Logo } from '../';
+import { Container, Logo } from '..';
 
 const StyledHeader = styled('header')`
     background: ${props => props.theme.colours.alpha};
@@ -11,11 +11,11 @@ const StyledHeader = styled('header')`
 `;
 
 const BaseHeader = () => (
-    <StyledHeader>
-        <Container>
-            <Logo label="Gentle Jack" isLink />
-        </Container>
-    </StyledHeader>
+  <StyledHeader>
+    <Container>
+      <Logo label="Gentle Jack" isLink />
+    </Container>
+  </StyledHeader>
 );
 
 BaseHeader.propTypes = {};

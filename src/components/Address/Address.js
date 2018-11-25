@@ -13,7 +13,7 @@ const StyledAddress = Styled('div')`
 const BaseAddress = ({ children }) => <StyledAddress>{children}</StyledAddress>;
 
 BaseAddress.propTypes = {
-    children: PropTypes.node
+  children: PropTypes.node.isRequired,
 };
 
 BaseAddress.defaultProps = {};

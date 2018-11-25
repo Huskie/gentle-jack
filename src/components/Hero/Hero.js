@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'react-emotion';
 import { withTheme } from 'emotion-theming';
 
-import { Button, Container } from '../';
+import { Button, Container, TransitionBlock } from '..';
 
 const StyledWrapper = styled('div')`
     background: ${props => props.theme.colours.alpha};
@@ -50,6 +50,13 @@ const StyledWrapper = styled('div')`
         text-transform: uppercase;
         -webkit-appearance: none;
     }
+    .fade-in-appear {
+        opacity: 0;
+    }  
+    .fade-in-appear-active {
+        opacity: 1;
+        transition: opacity 0.75s ease-in;
+    }
 `;
 
 const StyledFlexContainer = styled('div')`
@@ -75,31 +82,41 @@ const StyledImageColumn = styled('div')`
     }
 `;
 
-const BaseHero = ({ buttonLabel, image, summary, title }) => (
-    <StyledWrapper>
-        <Container>
-            <StyledFlexContainer>
-                <StyledContentColumn>
-                    <h1>{title}</h1>
-                    <h2>{summary}</h2>
-                    {buttonLabel && <Button label={buttonLabel} />}
-                </StyledContentColumn>
-                <StyledImageColumn>
-                    {image}
-                </StyledImageColumn>
-            </StyledFlexContainer>
-        </Container>
-    </StyledWrapper>
+const BaseHero = ({
+  buttonLabel, image, summary, title,
+}) => (
+  <StyledWrapper>
+    <Container>
+      <StyledFlexContainer>
+        <StyledContentColumn>
+          <TransitionBlock>
+            <h1>{title}</h1>
+            <h2>{summary}</h2>
+            {buttonLabel && <Button label={buttonLabel} />}
+          </TransitionBlock>
+        </StyledContentColumn>
+        <StyledImageColumn>
+          <TransitionBlock>
+            {image}
+          </TransitionBlock>
+        </StyledImageColumn>
+      </StyledFlexContainer>
+    </Container>
+  </StyledWrapper>
 );
 
 BaseHero.propTypes = {
-    buttonLabel: PropTypes.node,
-    image: PropTypes.node,
-    summary: PropTypes.string,
-    title: PropTypes.string.isRequired
+  buttonLabel: PropTypes.node,
+  image: PropTypes.node,
+  summary: PropTypes.string,
+  title: PropTypes.string.isRequired,
 };
 
-BaseHero.defaultProps = {};
+BaseHero.defaultProps = {
+  buttonLabel: '',
+  image: null,
+  summary: '',
+};
 
 const Hero = withTheme(BaseHero);
 

@@ -12,15 +12,18 @@ const StyledKey = Styled('span')`
 `;
 
 const KeyValuePair = ({ theKey, value }) => (
-    <StyledWrapper>
-        <StyledKey>{theKey}:</StyledKey>
-        <span>{value}</span>
-    </StyledWrapper>
+  <StyledWrapper>
+    <StyledKey>
+      {theKey}
+:
+    </StyledKey>
+    <span>{value}</span>
+  </StyledWrapper>
 );
 
 KeyValuePair.propTypes = {
-    theKey: PropTypes.string.isRequired,
-    value: PropTypes.string.isRequired
+  theKey: PropTypes.string.isRequired,
+  value: PropTypes.string.isRequired,
 };
 
 KeyValuePair.defaultProps = {};
