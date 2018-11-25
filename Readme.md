@@ -5,7 +5,22 @@
 * ✔️ Jest
 * ✔️ Enzyme
 * 🚀 Webpack 4
-* 🚀 Webpack Dev Server
+* webpack-dev-server
+* eslint
+
+## Scripts
+
+### Build
+
+```javascript npm run build```: builds the JS bundle into the build folder
+
+### Start
+
+```javascript npm start```: builds the JS bundle with a change watcher and spins up a webpack dev server
+
+### Continuous integration
+
+```javascript npm run ci```: continuous integration code quality checks including linting
 
 ---
 
@@ -16,6 +31,5 @@ Company website for Gentle Jack.
 ## TODO
 
 * Client list
-* Linting
 * Formatting
 * Tests
