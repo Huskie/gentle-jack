@@ -7,7 +7,7 @@
     "ci": "eslint src",
     "build": "webpack",
     "start": "webpack --watch & webpack-dev-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -40,6 +40,7 @@
     "eslint": "^5.9.0",
     "eslint-plugin-react": "^7.11.1",
     "jest": "^23.6.0",
+    "react-test-renderer": "^16.6.3",
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
