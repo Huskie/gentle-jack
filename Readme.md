@@ -12,15 +12,15 @@
 
 ### Build
 
-```javascript npm run build```: builds the JS bundle into the build folder
+```npm run build``` builds the JS bundle into the build folder
 
 ### Start
 
-```javascript npm start```: builds the JS bundle with a change watcher and spins up a webpack dev server
+```npm start``` builds the JS bundle with a change watcher and spins up a webpack dev server
 
 ### Continuous integration
 
-```javascript npm run ci```: continuous integration code quality checks including linting
+```npm run ci``` continuous integration code quality checks including linting
 
 ---
 
