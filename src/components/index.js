@@ -8,4 +8,5 @@ export { Header } from './Header';
 export { Hero } from './Hero';
 export { KeyValuePair } from './KeyValuePair';
 export { Logo } from './Logo';
+export { Navigation } from './Navigation';
 export { TransitionBlock } from './Global/TransitionBlock';

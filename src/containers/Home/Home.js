@@ -16,7 +16,7 @@ const clients = [
 ];
 
 const heroImage = <img alt="Gentle Jack web software consultancy" src="/assets/illustrations/developer.svg" />;
-const heroSummary = 'We build digital projects for businesses. We are working hard preparing our website for the world. Stay tuned for updates.';
+const heroSummary = 'We build web applications and products for businesses. We are experienced in building high-quality, robust applications for clients in a range of industry sectors.';
 const heroTitle = 'Quality code for your ideas';
 
 const Home = () => (

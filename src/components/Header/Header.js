@@ -2,7 +2,12 @@ import React from 'react';
 import styled from 'react-emotion';
 import { withTheme } from 'emotion-theming';
 
-import { Container, Logo } from '..';
+import {
+  Container,
+  FlexContainer,
+  Logo,
+  Navigation,
+} from '..';
 
 const StyledHeader = styled('header')`
     background: ${props => props.theme.colours.alpha};
@@ -13,7 +18,10 @@ const StyledHeader = styled('header')`
 const BaseHeader = () => (
   <StyledHeader>
     <Container>
-      <Logo label="Gentle Jack" isLink />
+      <FlexContainer horizontalAlignment="space-between">
+        <Logo label="Gentle Jack" isLink />
+        <Navigation />
+      </FlexContainer>
     </Container>
   </StyledHeader>
 );
