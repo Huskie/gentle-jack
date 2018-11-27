@@ -4,8 +4,8 @@
   "description": "GentleJack company website.",
   "main": "index.js",
   "scripts": {
-    "ci": "eslint src --fix",
     "build": "webpack",
+    "ci": "eslint src --fix",
     "start": "webpack --watch & webpack-dev-server",
     "test": "jest",
     "test:watch": "npm run test -- --watch"
