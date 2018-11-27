@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`KeyValuePair snapshots: component renders with defaults 1`] = `
+.emotion-0 {
+  font-weight: 700;
+  margin-right: 0.25rem;
+}
+
+<div
+  className="emotion-1"
+>
+  <span
+    className="emotion-0"
+  >
+    A test key
+    :
+  </span>
+  <span>
+    A test value
+  </span>
+</div>
+`;

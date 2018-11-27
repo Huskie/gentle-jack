@@ -30,4 +30,5 @@ Company website for Gentle Jack.
 
 * Client list
 * Formatting
-* Tests
+* ReactCSSTransitionGroup snapshots
+* Unit tests

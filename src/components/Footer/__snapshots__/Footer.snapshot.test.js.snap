@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer snapshots: component renders with defaults 1`] = `
+.emotion-6 {
+  color: #aaa;
+  font-size: 0.8125rem;
+  padding: 2rem 0;
+}
+
+@media (min-width:768px) {
+  .emotion-6 {
+    font-size: 1rem;
+  }
+}
+
+.emotion-5 {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 24px;
+}
+
+.emotion-0 {
+  margin-bottom: 16px;
+}
+
+.emotion-0 span {
+  display: block;
+}
+
+.emotion-1 {
+  font-weight: 700;
+  margin-right: 0.25rem;
+}
+
+<footer
+  className="emotion-6"
+>
+  <div
+    className="emotion-5"
+  >
+    <div
+      className="emotion-0"
+    >
+      <span>
+        Registered office address:
+      </span>
+      <span>
+        272 Bath Street
+      </span>
+      <span>
+        Glasgow, G2 4JR
+      </span>
+    </div>
+    <div
+      className="emotion-2"
+    >
+      <span
+        className="emotion-1"
+      >
+        Company number
+        :
+      </span>
+      <span>
+        SC588866
+      </span>
+    </div>
+    <div
+      className="emotion-2"
+    >
+      <span
+        className="emotion-1"
+      >
+        VAT registration number
+        :
+      </span>
+      <span>
+        288078750
+      </span>
+    </div>
+  </div>
+</footer>
+`;

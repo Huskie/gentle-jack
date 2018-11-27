@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClientList snapshots: component renders with all props set 1`] = `
+.emotion-2 {
+  background: #06f;
+  color: #fff;
+  box-sizing: border-box;
+  display: none;
+  padding: 2rem 0;
+}
+
+.emotion-2 h2 {
+  font-size: 1.125rem;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.emotion-1 {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 24px;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-0 span {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+<div
+  className="emotion-2"
+>
+  <div
+    className="emotion-1"
+  >
+    <h2>
+      Test title
+    </h2>
+    <div
+      className="emotion-0"
+    >
+      <span>
+        Client A
+      </span>
+      <span>
+        Client B
+      </span>
+      <span>
+        Client C
+      </span>
+      <span>
+        Client X
+      </span>
+      <span>
+        Client Y
+      </span>
+      <span>
+        Client Z
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`ClientList snapshots: component renders with defaults 1`] = `
+.emotion-2 {
+  background: #06f;
+  color: #fff;
+  box-sizing: border-box;
+  display: none;
+  padding: 2rem 0;
+}
+
+.emotion-2 h2 {
+  font-size: 1.125rem;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.emotion-1 {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 24px;
+}
+
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.emotion-0 span {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+<div
+  className="emotion-2"
+>
+  <div
+    className="emotion-1"
+  >
+    
+    <div
+      className="emotion-0"
+    >
+      <span>
+        Client A
+      </span>
+      <span>
+        Client B
+      </span>
+      <span>
+        Client C
+      </span>
+      <span>
+        Client X
+      </span>
+      <span>
+        Client Y
+      </span>
+      <span>
+        Client Z
+      </span>
+    </div>
+  </div>
+</div>
+`;

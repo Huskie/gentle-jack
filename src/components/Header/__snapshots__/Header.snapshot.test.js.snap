@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header snapshots: component renders with defaults 1`] = `
+.emotion-4 {
+  background: #4048ef;
+  color: #fff;
+  padding: 1.5rem 0;
+}
+
+.emotion-3 {
+  margin: 0 auto;
+  max-width: 1080px;
+  padding: 0 24px;
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.emotion-0 {
+  font-weight: 700;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.emotion-0 a {
+  color: #fff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-1 {
+  display: none;
+  font-size: 0.75rem;
+  font-weight: 700;
+  -webkit-letter-spacing: 1px;
+  -moz-letter-spacing: 1px;
+  -ms-letter-spacing: 1px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.emotion-1 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.emotion-1 li {
+  cursor: pointer;
+}
+
+<header
+  className="emotion-4"
+>
+  <div
+    className="emotion-3"
+  >
+    <div
+      className="emotion-2"
+    >
+      <div
+        className="emotion-0"
+      >
+        <a
+          href="/"
+          title="Gentle Jack"
+        >
+          Gentle Jack
+        </a>
+      </div>
+      <nav
+        className="emotion-1"
+      >
+        <ul>
+          <li>
+            About
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+`;

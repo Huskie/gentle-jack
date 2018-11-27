@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo snapshots: component renders with all props set 1`] = `
+.emotion-0 {
+  font-weight: 700;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.emotion-0 a {
+  color: #fff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<div
+  className="emotion-0"
+>
+  <a
+    href="/"
+    title="A test label"
+  >
+    A test label
+  </a>
+</div>
+`;
+
+exports[`Logo snapshots: component renders with defaults 1`] = `
+.emotion-0 {
+  font-weight: 700;
+  -webkit-letter-spacing: 2px;
+  -moz-letter-spacing: 2px;
+  -ms-letter-spacing: 2px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.emotion-0 a {
+  color: #fff;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+<div
+  className="emotion-0"
+>
+  <span>
+    A test label
+  </span>
+</div>
+`;

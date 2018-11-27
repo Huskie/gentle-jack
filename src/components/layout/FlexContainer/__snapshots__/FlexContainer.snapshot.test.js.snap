@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FlexContainer snapshots: component renders with all props set 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<div
+  className="emotion-0"
+>
+  <p>
+    A test child.
+  </p>
+  <span>
+    Another test child.
+  </span>
+</div>
+`;
+
+exports[`FlexContainer snapshots: component renders with defaults 1`] = `
+.emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+<div
+  className="emotion-0"
+>
+  <p>
+    A test child.
+  </p>
+  <span>
+    Another test child.
+  </span>
+</div>
+`;

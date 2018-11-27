@@ -17,7 +17,7 @@ const TransitionBlock = ({ children, type }) => (
 
 TransitionBlock.propTypes = {
   children: PropTypes.node.isRequired,
-  type: PropTypes.string,
+  type: PropTypes.oneOf(['fade-in']),
 };
 
 TransitionBlock.defaultProps = {

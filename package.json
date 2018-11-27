@@ -7,7 +7,8 @@
     "ci": "eslint src --fix",
     "build": "webpack",
     "start": "webpack --watch & webpack-dev-server",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "npm run test -- --watch"
   },
   "repository": {
     "type": "git",
@@ -53,5 +54,9 @@
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "./config/jest/setup-test-framework.js",
+    "testMatch": ["**/*.spec.js", "**/*.test.js", "**/*.snapshot.test.js"]
   }
 }
