@@ -10,7 +10,7 @@ import {
 } from '..';
 
 const StyledHeader = styled('header')`
-    background: ${props => props.theme.colours.alpha};
+    background: ${props => props.theme.colours.eta};
     color: ${props => props.theme.colours.delta};
     padding: 1.5rem 0;
 `;

@@ -15,6 +15,10 @@ const theme = {
     delta: '#fff',
     epsilon: '#1b6cff',
     zeta: '#ffd561',
+    eta: '#4048ef',
+  },
+  gradients: {
+    alpha: '#4048ef, #2742b8',
   },
   spacing: {
     componentMargin: '16px',

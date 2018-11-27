@@ -5,7 +5,6 @@ import { withTheme } from 'emotion-theming';
 import { Address, Container, KeyValuePair } from '..';
 
 const StyledFooter = Styled('footer')`
-    background: ${props => props.theme.colours.beta};
     color: #aaa;
     font-size: 0.8125rem;
     padding: 2rem 0;

@@ -1,6 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
+expect.addSnapshotSerializer(createSerializer(emotion));
+
 import { Address } from './Address';
 
 describe('Address snapshots', () => {

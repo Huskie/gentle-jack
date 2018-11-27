@@ -6,7 +6,7 @@ import { withTheme } from 'emotion-theming';
 import { Button, Container, TransitionBlock } from '..';
 
 const StyledWrapper = styled('div')`
-    background: ${props => props.theme.colours.alpha};
+    background: linear-gradient(${props => props.theme.gradients.alpha});
     box-sizing: border-box;
     color: ${props => props.theme.colours.delta};
     padding: 2rem 0 0 0;
