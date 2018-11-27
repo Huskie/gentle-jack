@@ -77,6 +77,9 @@ const StyledContentColumn = styled('div')`
 const StyledImageColumn = styled('div')`
     flex: 1;
     flex-basis: 100%;
+    span {
+        display: block;
+    }
     @media (min-width: 480px) {
         flex-basis: 50%;
     }
